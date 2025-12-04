@@ -12,12 +12,18 @@
     <form id="form-agendamento">
         <label for="Nome">Nome:</label>
         <input type="text" id="Nome" name="Nome" required>
-        <br>
+        <br><br>
         <label for="Data">Data:</label>
         <input type="date" id="Data" name="Data" required>
-        <br>
+        <br><br>
         <label for="Hora">Hora:</label>
-        <input type="time" id="Hora" name="Hora" required>
+        <input type="time" id="Hora" name="Hora" required><br><br>
+        <label for="Servico">Serviço:</label>
+        <select id="Servico" name="Servico" required>
+            <option value="Corte de cabelo">Corte de cabelo - R$ 50,00</option>
+            <option value="Barba e bigode">Barba e bigode - R$ 25,00</option>
+            <option value="Nevou">Nevou - R$ 180,00</option>
+            <option value="Luzes">Luzes - R$ 150,00</option>
         <br>
         <button type="submit">Confirmar Agendamento</button>
     </form>
